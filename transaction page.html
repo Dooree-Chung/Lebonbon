@@ -1,17 +1,56 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lebonbon</title>
-    <link rel="stylesheet" href="post.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LeBonBon Game Bundle Purchase</title>
+   <link rel="stylesheet" href="transactionpgae.css">
 </head>
 <body>
-    <header>
-        <h1>Buy our new game</h1>
-        <nav>
-            <ul>
-        
-            </ul>
-        </nav>
-    </header>
-    </html>
+   <div class="container">
+       <h1>LeBonBon Game Bundle</h1>
+       <form action="final-transaction.html" method="post">
+           <div class="billing-details">
+               <h2>Billing Details</h2>
+               <p><label for="name">Full Name</label>
+               <input type="text" id="name" name="name" required></p>
+              
+               <p><label for="email">Email</label>
+               <input type="email" id="email" name="email" required></p>
+              
+               <p><label for="address">Address</label>
+               <input type="text" id="address" name="address" required></p>
+              
+               <p><label for="city">City</label>
+               <input type="text" id="city" name="city" required></p>
+              
+              <p> <label for="state">State</label>
+               <input type="text" id="state" name="state" required></p>
+              
+              <p> <label for="zip">Zip Code</label>
+               <input type="text" id="zip" name="zip" required></p>
+           </div>
+          
+           <div class="payment-details">
+               <h2>Payment Details</h2>
+              <p><label for="card-name">Name on Card</label>
+               <input type="text" id="card-name" name="card-name" required></p>
+              
+               <p><label for="card-number">Card Number</label>
+               <input type="text" id="card-number" name="card-number" required></p>
+              
+               <p><label for="exp-month">Expiry Month</label>
+               <input type="text" id="exp-month" name="exp-month" required></p>
+              
+               <p><label for="exp-year">Expiry Year</label>
+               <input type="text" id="exp-year" name="exp-year" required></p>
+              
+               <p><label for="cvv">CVV</label>
+               <input type="text" id="cvv" name="cvv" required></p>
+           </div>
+          
+           <button type="submit">Purchase</button>
+       </form>
+   </div>
+</body>
+</html>
