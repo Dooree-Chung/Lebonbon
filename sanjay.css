@@ -2,11 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #552583;
+    background-color: #9370DB;
 }
 
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #FFD700; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFF9DB; 
+  }
+
 header {
-    background-color: #FDB927;
+    background-color:#FFD700;
     color: #ffffff;
     padding: 1rem 1rem;
     text-align: center;
@@ -23,7 +33,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #7700ff;
+    color: #6a00ff;
     text-decoration: none;
 }
 
@@ -52,15 +62,14 @@ h2 {
 color: #FDB927
 }
 
-p {
-    color: #ffffff
-}
+
+
 a {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #ffffff;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-}
+  }
